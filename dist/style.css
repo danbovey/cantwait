@@ -1,14 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Amiri);
+@import url(https://fonts.googleapis.com/css?family=Exo:700,900);
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
 body {
-  background: #5FCC9F;
-  font-family: 'Amiri', serif;
+  background: #13202c;
+  background: linear-gradient(90deg, #13202c 0%, #1f2f3d 35%, #111c27 100%);
+  font-family: 'Exo', serif;
+  font-weight: 700;
   line-height: 1;
-  font-weight: 400;
   color: #FFF; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,9 +27,27 @@ a {
   margin: 0 auto; }
 
 header {
+  height: 130px;
   padding: 40px 0; }
   header h1 {
-    margin-right: 100px; }
+    position: relative;
+    margin-right: 100px;
+    text-transform: uppercase; }
+    header h1:before, header h1:after {
+      position: absolute;
+      text-transform: uppercase;
+      content: "Can't Wait"; }
+    header h1:before {
+      top: -10px;
+      left: -10px;
+      color: rgba(250, 3, 216, 0.4); }
+    header h1:after {
+      bottom: -10px;
+      right: -10px;
+      color: rgba(9, 44, 250, 0.4); }
+    header h1 span {
+      position: relative;
+      z-index: 1; }
   header .container {
     display: flex;
     align-items: center; }
@@ -92,17 +111,15 @@ header {
     display: flex;
     align-items: center; }
 
-.player--body-work {
-  padding: 140px 0;
-  background-color: #E9772E;
-  background: url(/img/body-work-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: 50% 35%; }
-  .player--body-work .btn-play {
-    color: #E9772E; }
+.btn-play {
+  padding: 22px 24px;
+  color: #1A2936; }
 
 .player__content {
   flex: 1; }
+
+.track-title {
+  font-size: 2.4rem; }
 
 .track-artwork {
   width: 250px;
@@ -114,12 +131,11 @@ header {
   align-items: center; }
   .player__controls .btn {
     margin-right: 30px; }
-  .player__controls h2 {
-    font-size: 1.8rem; }
 
 .icon-pause {
   display: none;
-  margin-left: -1px; }
+  margin-left: -1px;
+  margin-right: 1px; }
 
 .player__controls-right {
   display: inline-flex;
@@ -204,6 +220,23 @@ header {
   background-color: #777; }
   .btn-share--email:hover, .btn-share--email:focus {
     background-color: #5e5e5e; }
+
+.body-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -130px;
+  padding: 140px 0;
+  background-color: #E9772E;
+  background: url(/img/body-work-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 35%; }
+  @media (min-height: 650px) {
+    .body-work .player {
+      margin-top: -20vh; } }
+  .body-work .btn-play {
+    color: #E9772E; }
 
 
 /*# sourceMappingURL=style.css.map*/

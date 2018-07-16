@@ -1,0 +1,22 @@
+.body-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: -130px;
+  padding: 140px 0;
+  background-color: #E9772E;
+  background: url(/img/body-work-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 35%;
+
+  @media(min-height: 650px) {
+    .player {
+      margin-top: -20vh;
+    }
+  }
+
+  .btn-play {
+    color: #E9772E;
+  }
+}

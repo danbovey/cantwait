@@ -11,20 +11,17 @@
   }
 }
 
-.player--body-work {
-  padding: 140px 0;
-  background-color: #E9772E;
-  background: url(/img/body-work-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: 50% 35%;
-
-  .btn-play {
-    color: #E9772E;
-  }
+.btn-play {
+  padding: 22px 24px;
+  color: #1A2936;
 }
 
 .player__content {
   flex: 1;
+}
+
+.track-title {
+  font-size: 2.4rem;
 }
 
 .track-artwork {
@@ -40,14 +37,11 @@
   .btn {
     margin-right: 30px;
   }
-
-  h2 {
-    font-size: 1.8rem;
-  }
 }
 .icon-pause {
   display: none;
   margin-left: -1px;
+  margin-right: 1px;
 }
 .player__controls-right {
   display: inline-flex;

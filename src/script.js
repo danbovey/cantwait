@@ -68,7 +68,7 @@ const widgets = document.querySelectorAll('.player');
     const bars = trackWaveform.querySelectorAll('.bar');
     const filled = Math.ceil(bars.length * player.relativePosition);
     for(let i = 0; i < filled; i++) {
-      bars[i].style.background = el.dataset.color || '#E9772E';
+      bars[i].style.background = el.dataset.color || '#FA03D8';
     }
   });
 
