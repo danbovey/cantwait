@@ -1,0 +1,32 @@
+header {
+  padding: 40px 0;
+  
+  h1 {
+    margin-right: 100px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    display: inline-flex;
+
+    &:last-child {
+      margin-left: auto;
+    }
+    
+    a {
+      margin-right: 2em;
+      font-size: 1.4rem;
+      transition: opacity 0.2s ease-in-out;
+      
+      &:last-child {
+       margin-right: 0;
+      }
+
+      &.filtered {
+        opacity: 0.5;
+      }
+    }
+  }
+}
