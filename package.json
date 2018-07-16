@@ -1,7 +1,7 @@
 {
   "name": "cantwait",
   "version": "1.0.0",
-  "description": "The Can't Wait Website",
+  "description": "⏰ The Can't Wait Website",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --mode development",
