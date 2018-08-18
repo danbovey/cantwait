@@ -5,24 +5,6 @@ header {
   h1 {
     position: relative;
     margin-right: 100px;
-    text-transform: uppercase;
-
-    &:before, &:after {
-      position: absolute;
-      text-transform: uppercase;
-      content: "Can't Wait";
-    }
-
-    &:before {
-      top: -10px;
-      left: -10px;
-      color: rgba(250, 3, 216, 0.4);
-    }
-    &:after {
-      bottom: -10px;
-      right: -10px;
-      color: rgba(9, 44, 250, 0.4);
-    }
 
     span {
       position: relative;
