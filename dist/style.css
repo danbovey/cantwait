@@ -31,7 +31,8 @@ header {
   padding: 40px 0; }
   header h1 {
     position: relative;
-    margin-right: 100px; }
+    margin-right: 100px;
+    color: #94BEE4; }
     header h1 span {
       position: relative;
       z-index: 1; }
@@ -208,22 +209,22 @@ header {
   .btn-share--email:hover, .btn-share--email:focus {
     background-color: #5e5e5e; }
 
-.body-work {
+.surfer-bro {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin-top: -130px;
   padding: 140px 0;
-  background-color: #E9772E;
-  background: url(/img/body-work-bg.jpg) no-repeat;
+  background-color: #94BEE4;
+  background: url(/img/surfer-bro-bg.jpg) no-repeat;
   background-size: cover;
-  background-position: 50% 35%; }
-  @media (min-height: 650px) {
-    .body-work .player {
-      margin-top: -20vh; } }
-  .body-work .btn-play {
-    color: #E9772E; }
+  background-position: 50% 35%;
+  color: #94BEE4; }
+  .surfer-bro .track-title {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); }
+  .surfer-bro .btn-play {
+    color: #94BEE4; }
 
 
 /*# sourceMappingURL=style.css.map*/

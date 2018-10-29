@@ -1,6 +1,5 @@
 require('social-share-kit');
 
-require('./filter');
 const createWaveform = require('./waveform');
 require('./scss/style.scss');
 
@@ -11,6 +10,7 @@ const widgets = document.querySelectorAll('.player');
   const widget = SC.Widget(el.querySelector('.soundcloud-widget'));
 
   const trackArtwork = el.querySelector('.track-artwork');
+  const trackArtworkLink = el.querySelector('.track-artwork-link');
   const trackTitle = el.querySelector('.track-title');
   const trackWaveform = el.querySelector('.waveform');
   const trackPermalink = el.querySelector('.track-permalink');
@@ -20,7 +20,12 @@ const widgets = document.querySelectorAll('.player');
   const btnSharer = el.querySelector('.track-share');
   const sharer = el.querySelector('.sharer');
 
+  let currentSoundId = null;
+
   const displayTrack = track => {
+    // Store which track is currently playing
+    currentSoundId = track.id;
+
     const artwork = track.artwork_url.replace('large', 't500x500');
     trackArtwork.setAttribute('src', artwork);
 
@@ -28,6 +33,7 @@ const widgets = document.querySelectorAll('.player');
     const permalink = track.permalink_url;
     trackTitle.textContent = title;
     trackPermalink.setAttribute('href', permalink);
+    trackArtworkLink.setAttribute('href', permalink);
 
     // Load the waveform JSON file
     window.fetch(track.waveform_url)
@@ -59,17 +65,42 @@ const widgets = document.querySelectorAll('.player');
   widget.bind(SC.Widget.Events.PLAY, () => {
     iconPlay.style.display = 'none';
     iconPause.style.display = 'block';
+
+    widget.getCurrentSound(currentSound => {
+      if (currentSound !== currentSoundId) {
+        // Display the new track
+        displayTrack(currentSound);
+      }
+    });
   });
   widget.bind(SC.Widget.Events.PAUSE, () => {
     iconPause.style.display = 'none';
     iconPlay.style.display = 'block';
   });
   widget.bind(SC.Widget.Events.PLAY_PROGRESS, player => {
+    // Fill bars based on progress
     const bars = trackWaveform.querySelectorAll('.bar');
     const filled = Math.ceil(bars.length * player.relativePosition);
     for(let i = 0; i < filled; i++) {
       bars[i].style.background = el.dataset.color || '#FA03D8';
     }
+  });
+
+  const waveformOffset = trackWaveform.getBoundingClientRect().left;
+  const waveformWidth = trackWaveform.clientWidth;
+  trackWaveform.addEventListener('click', e => {
+    // Reset waveform fill
+    const bars = trackWaveform.querySelectorAll('.bar');
+    bars.forEach(bar => {
+      bar.style.background = '#FFF';
+    });
+
+    const percent = (e.clientX - waveformOffset) / waveformWidth;
+    widget.getDuration(duration => {
+      widget.seekTo(duration * percent);
+      // In case we aren't playing yet
+      widget.play();
+    });
   });
 
   btnPlay.addEventListener('click', () => widget.toggle());
