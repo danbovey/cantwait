@@ -1,20 +1,20 @@
-.surfer-bro {
+.kainji {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin-top: -130px;
   padding: 140px 0;
-  background-color: #94BEE4;
-  background: url(/img/surfer-bro-bg.jpg) no-repeat;
+  background-color: #143329;
+  background: url(/img/kainji-bg.jpg) no-repeat;
   background-size: cover;
   background-position: 50% 35%;
-  color: #94BEE4;
+  color: rgba(255, 255, 255, 0.8);
 
   .track-title {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   }
   .btn-play {
-    color: #94BEE4;
+    color: #143329;
   }
 }

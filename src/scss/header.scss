@@ -5,7 +5,7 @@ header {
   h1 {
     position: relative;
     margin-right: 100px;
-    color: #94BEE4;
+    color: rgba(255, 255, 255, 0.8);
 
     span {
       position: relative;
@@ -27,6 +27,11 @@ header {
       margin-right: 2em;
       font-size: 1.4rem;
       transition: opacity 0.2s ease-in-out;
+      opacity: 0.8;
+
+      &:hover, &:focus {
+        opacity: 1;
+      }
       
       &:last-child {
        margin-right: 0;
