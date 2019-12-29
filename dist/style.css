@@ -212,7 +212,7 @@ header {
   .btn-share--email:hover, .btn-share--email:focus {
     background-color: #5e5e5e; }
 
-.kainji {
+.dancefloor-emptiers {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,13 +220,13 @@ header {
   margin-top: -130px;
   padding: 140px 0;
   background-color: #143329;
-  background: url(/img/kainji-bg.jpg) no-repeat;
+  background: url(/img/dark-room.jpg) no-repeat;
   background-size: cover;
   background-position: 50% 35%;
   color: rgba(255, 255, 255, 0.8); }
-  .kainji .track-title {
+  .dancefloor-emptiers .track-title {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); }
-  .kainji .btn-play {
+  .dancefloor-emptiers .btn-play {
     color: #143329; }
 
 
