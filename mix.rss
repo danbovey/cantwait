@@ -17,7 +17,7 @@
       <itunes:email>cantwait@danbovey.uk</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://i1.sndcdn.com/artworks-0pUM1wKgfitTJ05d-wpIUjg-original.jpg"/>
+    <itunes:image href="http://i1.sndcdn.com/artworks-j20Gf5gyBGCsj3np-y5RpKA-original.jpg"/>
     <itunes:category text="Music"></itunes:category>
     <item>
       <title><![CDATA[Can't Wait Mix #001]]></title>
@@ -1440,6 +1440,66 @@ Elder Island - I Fold You (Kassian Remix)
 Karma Kid - Man of the Year
 Reuben James - I Know You Too Well (Karma Kid 12&quot; Remix)</description>
       <itunes:duration>00:54:05</itunes:duration>
+    </item>
+    <item>
+      <title><![CDATA[Can't Wait Mix #028]]></title>
+      <link>http://soundcloud.com/cantwait/cant-wait-mix-028</link>
+      <guid>http://media.blubrry.com/cantwait/http://feeds.soundcloud.com/stream/851118427-cantwait-cant-wait-mix-028.mp3</guid>
+      <enclosure url="http://media.blubrry.com/cantwait/http://feeds.soundcloud.com/stream/851118427-cantwait-cant-wait-mix-028.mp3" length="60948479" type="audio/mpeg"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-j20Gf5gyBGCsj3np-y5RpKA-original.jpg"/>
+      <category><![CDATA[Music]]></category>
+      <pubDate>Fri, 03 Jul 2020 08:00:31 +0000</pubDate>
+      <itunes:author><![CDATA[Can't Wait]]></itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:summary>Nora En Pure - All I Need
+Session Victim - Needledrop (Laurence Guy Remix)
+Earth Boys - Got it to Work
+Foals - Into the Surf (Hot Since 82 Remix)
+Hatiras & Sebb Junior - Understanding
+Myd - Together We Stand
+9th House - Lyra (Dusky Remix)
+Coeo - Habibi Dub
+Can’t Wait - Noserii
+Tourdefrance - Menina Do Rio
+Röyksopp - Oblique Thrills
+BLR - Fade To White
+Willaris. K - Chapel
+Lifelike & Kris Menace - Discopolis 2.0 (MEDUZA Remix)
+EDX - Umoja
+Friend Within & Alex Preston - Bits & Pieces
+Bellaire - Daytime
+Tom Ferry - I Think That I Like You (Low Steppa Remix)
+Tinlicker - Blackbirds
+Kokiri - Disco Tool
+Harrison BDP - Sun Dial
+Spada - Part Of Me
+Cassian - Know U Well
+Cassian - Imagination</itunes:summary>
+      <description>Nora En Pure - All I Need
+Session Victim - Needledrop (Laurence Guy Remix)
+Earth Boys - Got it to Work
+Foals - Into the Surf (Hot Since 82 Remix)
+Hatiras & Sebb Junior - Understanding
+Myd - Together We Stand
+9th House - Lyra (Dusky Remix)
+Coeo - Habibi Dub
+Can’t Wait - Noserii
+Tourdefrance - Menina Do Rio
+Röyksopp - Oblique Thrills
+BLR - Fade To White
+Willaris. K - Chapel
+Lifelike & Kris Menace - Discopolis 2.0 (MEDUZA Remix)
+EDX - Umoja
+Friend Within & Alex Preston - Bits & Pieces
+Bellaire - Daytime
+Tom Ferry - I Think That I Like You (Low Steppa Remix)
+Tinlicker - Blackbirds
+Kokiri - Disco Tool
+Harrison BDP - Sun Dial
+Spada - Part Of Me
+Cassian - Know U Well
+Cassian - Imagination</description>
+      <itunes:duration>01:03:29</itunes:duration>
     </item>
   </channel>
 </rss>
