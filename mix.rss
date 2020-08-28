@@ -5,8 +5,8 @@
     <link>http://soundcloud.com/cantwait/sets/cant-wait-mixes</link>
     <language>en-us</language>
     <copyright>Copyright 2020</copyright>
-    <lastBuildDate>Fri, 05 Jun 2020 08:00:27 +0000</lastBuildDate>
-    <pubDate>Fri, 05 Jun 2020 08:00:27 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2020 19:57:05 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2020 19:57:05 +0000</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster><![CDATA[cantwait@danbovey.uk (Can't Wait)]]></webMaster>
     <itunes:author><![CDATA[Can't Wait]]></itunes:author>
@@ -17,8 +17,51 @@
       <itunes:email>cantwait@danbovey.uk</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://i1.sndcdn.com/artworks-yXEuouRD613B3MkV-7KLZSw-original.jpg"/>
+    <itunes:image href="http://i1.sndcdn.com/artworks-WSmrLWOdbB4WOF8o-HZNn4g-original.jpg"/>
     <itunes:category text="Music"></itunes:category>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/883138450</guid>
+      <title>Can't Wait Mix #030</title>
+      <pubDate>Fri, 28 Aug 2020 08:00:37 +0000</pubDate>
+      <link>http://soundcloud.com/cantwait/cant-wait-mix-030</link>
+      <itunes:duration>01:00:00</itunes:duration>
+      <itunes:author>Can't Wait</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Da Africa Deep - Kerubo
+Jt Company - Don't Deal With Us (Dusky Edit)
+Lastlings - No Time (RÜFÜS DU SOL Remix)
+SG Lewis - Impact (feat. Robyn &amp; Channel Tres)
+Foals - Wash Off (KUU Remix)
+Fakear - Carrie
+Alex Preston - Say Mama
+Disclosure - Douha (Mali Mali)
+Laurence Guy - Your Good Times Will Come
+Croatia Squad - Prepare for the Night (Yvvan Back Remix)
+Harrison BDP - Country Boy
+Manqo - Won’t Change (Rampa Retouch)
+Melawati - Daliah (Tale Of Us Remix)
+Ben Böhmer - After Earth
+Ben Böhmer - Motherboard</itunes:summary>
+      <itunes:subtitle>Da Africa Deep - Kerubo
+Jt Company - Don't Deal W…</itunes:subtitle>
+      <description>Da Africa Deep - Kerubo
+Jt Company - Don't Deal With Us (Dusky Edit)
+Lastlings - No Time (RÜFÜS DU SOL Remix)
+SG Lewis - Impact (feat. Robyn &amp; Channel Tres)
+Foals - Wash Off (KUU Remix)
+Fakear - Carrie
+Alex Preston - Say Mama
+Disclosure - Douha (Mali Mali)
+Laurence Guy - Your Good Times Will Come
+Croatia Squad - Prepare for the Night (Yvvan Back Remix)
+Harrison BDP - Country Boy
+Manqo - Won’t Change (Rampa Retouch)
+Melawati - Daliah (Tale Of Us Remix)
+Ben Böhmer - After Earth
+Ben Böhmer - Motherboard</description>
+      <enclosure type="audio/mpeg" url="http://media.blubrry.com/cantwait/http://feeds.soundcloud.com/stream/883138450-cantwait-cant-wait-mix-030.mp3" length="57603133"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-WSmrLWOdbB4WOF8o-HZNn4g-original.jpg"/>
+    </item>
     <item>
       <title><![CDATA[Can't Wait Mix #029]]></title>
       <link>http://soundcloud.com/cantwait/cant-wait-mix-029</link>
