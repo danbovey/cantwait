@@ -5,8 +5,8 @@
     <link>http://soundcloud.com/cantwait/sets/cant-wait-mixes</link>
     <language>en-us</language>
     <copyright>Copyright 2020</copyright>
-    <lastBuildDate>Thu, 27 Aug 2020 19:57:05 +0000</lastBuildDate>
-    <pubDate>Thu, 27 Aug 2020 19:57:05 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2021 01:44:01 +0000</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2021 01:44:01 +0000</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster><![CDATA[cantwait@danbovey.uk (Can't Wait)]]></webMaster>
     <itunes:author><![CDATA[Can't Wait]]></itunes:author>
@@ -17,8 +17,61 @@
       <itunes:email>cantwait@danbovey.uk</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://i1.sndcdn.com/artworks-oQAmTN1KyEv15COS-JFo5Yg-original.jpg"/>
+    <itunes:image href="http://cantwait.me/img/mix/podcast-cover-034.jpg"/>
     <itunes:category text="Music"></itunes:category>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/970296967</guid>
+      <title>Can't Wait Mix #034</title>
+      <pubDate>Fri, 22 Jan 2021 09:00:29 +0000</pubDate>
+      <link>http://soundcloud.com/cantwait/cant-wait-mix-034</link>
+      <itunes:duration>00:55:35</itunes:duration>
+      <itunes:author>Can't Wait</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Felipe Gordon x Codie Currie - Cold Nights
+Crade - Pink Sunrise
+Jeremiah Asiamah - Get Down
+Mischermann - Attic
+Club Soda - Would I Lie To You?
+obli - Hold It
+Chaos In The CBD - Emotional Intelligence
+Bicep - Saku
+Everything Everything - Black Hyena (IOE AIE Remix)
+Burial - Chemz
+Bonobo - Heartbreak (Kerri Chandler Remix)
+Whethan - Freefall (Tchami Remix)
+Ross from Friends - Burner
+Disclosure - Watch Your Step (Picard Brothers Remix)
+Glass Slipper - Unification Vibration (Atjazz Mix)
+Moullinex &amp; GPU Panic - Inner Child (Patrice Bäumel Remix)
+Kraak &amp; Smaak - Naked (Georges Remix)
+Digitalism - No Holiday
+Dirty South - Just a Dream
+Dirty South &amp; EDDIE - Just a Riff</itunes:summary>
+      <itunes:subtitle>Felipe Gordon x Codie Currie - Cold Nights
+Crade …</itunes:subtitle>
+      <description>Felipe Gordon x Codie Currie - Cold Nights
+Crade - Pink Sunrise
+Jeremiah Asiamah - Get Down
+Mischermann - Attic
+Club Soda - Would I Lie To You?
+obli - Hold It
+Chaos In The CBD - Emotional Intelligence
+Bicep - Saku
+Everything Everything - Black Hyena (IOE AIE Remix)
+Burial - Chemz
+Bonobo - Heartbreak (Kerri Chandler Remix)
+Whethan - Freefall (Tchami Remix)
+Ross from Friends - Burner
+Disclosure - Watch Your Step (Picard Brothers Remix)
+Glass Slipper - Unification Vibration (Atjazz Mix)
+Moullinex &amp; GPU Panic - Inner Child (Patrice Bäumel Remix)
+Kraak &amp; Smaak - Naked (Georges Remix)
+Digitalism - No Holiday
+Dirty South - Just a Dream
+Dirty South &amp; EDDIE - Just a Riff</description>
+      <enclosure type="audio/mpeg" url="http://media.blubrry.com/cantwait/http://feeds.soundcloud.com/stream/970296967-cantwait-cant-wait-mix-034.mp3" length="53365863"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-h6znKIZPBiJa85C4-uVGj5g-original.jpg"/>
+    </item>
     <item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/936807268</guid>
       <title>Can't Wait Mix #033</title>
