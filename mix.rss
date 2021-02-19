@@ -5,8 +5,8 @@
     <link>http://soundcloud.com/cantwait/sets/cant-wait-mixes</link>
     <language>en-us</language>
     <copyright>Copyright 2020</copyright>
-    <lastBuildDate>Fri, 22 Jan 2021 01:44:01 +0000</lastBuildDate>
-    <pubDate>Fri, 22 Jan 2021 01:44:01 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:35:51 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2021 00:35:51 +0000</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster><![CDATA[cantwait@danbovey.uk (Can't Wait)]]></webMaster>
     <itunes:author><![CDATA[Can't Wait]]></itunes:author>
@@ -17,8 +17,69 @@
       <itunes:email>cantwait@danbovey.uk</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://cantwait.me/img/mix/podcast-cover-034.jpg"/>
+    <itunes:image href="http://cantwait.me/img/mix/podcast-cover-035.jpg"/>
     <itunes:category text="Music"></itunes:category>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/988483603</guid>
+      <title>Can't Wait Mix #035</title>
+      <pubDate>Fri, 19 Feb 2021 09:00:35 +0000</pubDate>
+      <link>http://soundcloud.com/cantwait/cant-wait-mix-035</link>
+      <itunes:duration>01:02:20</itunes:duration>
+      <itunes:author>Can't Wait</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Cody Currie - Moves
+Nora En Pure - Cognitive Fadings
+Milkwish - Blue Sky
+South West Seven - Angel (Jimpster Remix)
+Crackazat - Alfa
+Felipe Gordon - I'm on Fire
+Marc Brauner - I Know You Would
+Marc Brauner - Neptun
+Ben Böhmer - Run Away
+Felipe Gordon &amp; Cody Currie - Late Nights
+Jack Wins - Set Me Free
+Sander van Doorn - Golden
+CINTHIE - Just Us
+Chris Stussy - Take A Leap Of Faith
+Gorgon City &amp; DRAMA - You've Done Enough
+Moodshift - Touch
+Spada - Voodoo
+LeMarquis - Let Go (BLV Remix)
+Milkwish &amp; Subside - Lost Prince
+Caribou - Never Come Back (Koreless Remix)
+Ben Böhmer - Weightless
+Solomun - We'll never have today again
+Apparel Wax - 005A1
+Apparel Wax - 008A1</itunes:summary>
+      <itunes:subtitle>Cody Currie - Moves
+Nora En Pure - Cognitive Fadi…</itunes:subtitle>
+      <description>Cody Currie - Moves
+Nora En Pure - Cognitive Fadings
+Milkwish - Blue Sky
+South West Seven - Angel (Jimpster Remix)
+Crackazat - Alfa
+Felipe Gordon - I'm on Fire
+Marc Brauner - I Know You Would
+Marc Brauner - Neptun
+Ben Böhmer - Run Away
+Felipe Gordon &amp; Cody Currie - Late Nights
+Jack Wins - Set Me Free
+Sander van Doorn - Golden
+CINTHIE - Just Us
+Chris Stussy - Take A Leap Of Faith
+Gorgon City &amp; DRAMA - You've Done Enough
+Moodshift - Touch
+Spada - Voodoo
+LeMarquis - Let Go (BLV Remix)
+Milkwish &amp; Subside - Lost Prince
+Caribou - Never Come Back (Koreless Remix)
+Ben Böhmer - Weightless
+Solomun - We'll never have today again
+Apparel Wax - 005A1
+Apparel Wax - 008A1</description>
+      <enclosure type="audio/mpeg" url="http://media.blubrry.com/cantwait/http://feeds.soundcloud.com/stream/988483603-cantwait-cant-wait-mix-035.mp3" length="59842559"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-4HEaCyO2GY2y2MSh-ZuvBBA-original.jpg"/>
+    </item>
     <item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/970296967</guid>
       <title>Can't Wait Mix #034</title>
